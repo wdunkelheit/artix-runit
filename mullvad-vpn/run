@@ -1,0 +1,3 @@
+#!/bin/sh
+[ -r conf ] && . ./conf
+exec /opt/Mullvad\ VPN/resources/mullvad-daemon -v --disable-stdout-timestamps 2>&1
